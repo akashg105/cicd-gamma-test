@@ -4,7 +4,7 @@
   "maxCapacity" : 10.0,
   "workerType" : "G.1X",
   "role" : "arn:aws:iam::590186200215:role/Admin",
-  "maxRetries" : 1,
+  "maxRetries" : 3,
   "glueVersion" : "3.0",
   "numberOfWorkers" : 10,
   "timeout" : 2880,
@@ -29,8 +29,8 @@
     "branch" : "main",
     "provider" : "AWS_CODE_COMMIT",
     "repository" : "cicd-gamma-test",
-    "lastCommitId" : "4a190d42d5c5bb37847622090f6f524dd6d1d086",
-    "lastSyncTimestamp" : "2022/08/01 16:21:38",
+    "lastCommitId" : "4dd574e6e6c1f35532498559b0238bd8149a7ff7",
+    "lastSyncTimestamp" : "2022/08/03 18:27:55",
     "folder" : "cicd-gamma-test-job-2"
   },
   "executionProperty" : {
