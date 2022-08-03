@@ -4,7 +4,7 @@
   "maxCapacity" : 10.0,
   "workerType" : "G.1X",
   "role" : "arn:aws:iam::590186200215:role/Admin",
-  "maxRetries" : 3,
+  "maxRetries" : 1,
   "glueVersion" : "3.0",
   "numberOfWorkers" : 10,
   "timeout" : 2880,
