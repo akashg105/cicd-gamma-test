@@ -6,7 +6,7 @@
   "role" : "arn:aws:iam::590186200215:role/Admin",
   "maxRetries" : 1,
   "glueVersion" : "3.0",
-  "numberOfWorkers" : 10,
+  "numberOfWorkers" : 8,
   "timeout" : 2880,
   "defaultArguments" : {
     "--class" : "GlueApp",
