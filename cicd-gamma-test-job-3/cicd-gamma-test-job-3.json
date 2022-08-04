@@ -1,0 +1,31 @@
+{
+  "name" : "cicd-gamma-test-job-2",
+  "allocatedCapacity" : 10,
+  "maxCapacity" : 10.0,
+  "workerType" : "G.1X",
+  "role" : "arn:aws:iam::590186200215:role/Admin",
+  "maxRetries" : 1,
+  "glueVersion" : "3.0",
+  "numberOfWorkers" : 8,
+  "timeout" : 2880,
+  "defaultArguments" : {
+    "--class" : "GlueApp",
+    "--enable-metrics" : "true",
+    "--enable-spark-ui" : "true",
+    "--spark-event-logs-path" : "s3://aws-glue-assets-590186200215-us-west-2/sparkHistoryLogs/",
+    "--enable-job-insights" : "true",
+    "--enable-glue-datacatalog" : "true",
+    "--enable-continuous-cloudwatch-log" : "true",
+    "--job-bookmark-option" : "job-bookmark-enable",
+    "--job-language" : "python",
+    "--TempDir" : "s3://aws-glue-assets-590186200215-us-west-2/temporary/"
+  },
+  "command" : {
+    "pythonVersion" : "3",
+    "name" : "glueetl",
+    "scriptLocation" : "s3://aws-glue-assets-590186200215-us-west-2/scripts/cicd-gamma-test-job-2.py"
+  },
+  "executionProperty" : {
+    "maxConcurrentRuns" : 1
+  }
+}
