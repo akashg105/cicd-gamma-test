@@ -13,5 +13,15 @@
   "allocatedCapacity" : 10,
   "timeout" : 2880,
   "maxCapacity" : 10.0,
-  "glueVersion" : "2.0"
+  "glueVersion" : "2.0",
+  "numberOfWorkers" : 10,
+  "workerType" : "G.1X",
+  "sourceControlDetails" : {
+    "provider" : "GITHUB",
+    "repository" : "cicd-gamma-test",
+    "branch" : "main",
+    "folder" : "cicd-gamma-test-job-github-1",
+    "lastCommitId" : "e7995be428c2631332be4e21d2669f9259ef0869",
+    "lastSyncTimestamp" : "1660615411279"
+  }
 }
