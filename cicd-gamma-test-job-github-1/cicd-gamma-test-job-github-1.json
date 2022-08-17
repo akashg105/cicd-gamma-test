@@ -9,7 +9,7 @@
     "scriptLocation" : "s3://aws-glue-assets-590186200215-us-west-2/scripts/cicd-gamma-test-job-github-1",
     "pythonVersion" : "2"
   },
-  "maxRetries" : 0,
+  "maxRetries" : 3,
   "allocatedCapacity" : 10,
   "timeout" : 2880,
   "maxCapacity" : 10.0,
@@ -21,7 +21,7 @@
     "repository" : "cicd-gamma-test",
     "branch" : "main",
     "folder" : "cicd-gamma-test-job-github-1",
-    "lastCommitId" : "129a96a7c97ee06bb8837c12e4135cd890762a91",
-    "lastSyncTimestamp" : "1660777691210"
+    "lastCommitId" : "ea44d042327df5a0fc10127eeb3d32146cea84fe",
+    "lastSyncTimestamp" : "1660778017167"
   }
 }
