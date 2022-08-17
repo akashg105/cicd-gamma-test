@@ -21,7 +21,7 @@
     "repository" : "cicd-gamma-test",
     "branch" : "main",
     "folder" : "cicd-gamma-test-job-github-1",
-    "lastCommitId" : "3ada549143a2dc74a337450613681571927f54c3",
-    "lastSyncTimestamp" : "1660695821967"
+    "lastCommitId" : "129a96a7c97ee06bb8837c12e4135cd890762a91",
+    "lastSyncTimestamp" : "1660777691210"
   }
 }
